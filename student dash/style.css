@@ -1,0 +1,25 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+table{
+    border: 1px solid black;
+    column-gap: 50px;
+}
+td{
+    border-bottom: 1px solid black;
+    padding-right: 300px;
+  
+}
+
+@media (max-width:680px) {
+    table{
+        overflow: auto;
+        column-gap: 10px;
+    }
+    td{
+        padding-right: 50px;
+    }
+}
